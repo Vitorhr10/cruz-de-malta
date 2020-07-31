@@ -1,0 +1,144 @@
+/*
+Theme Name:     Kallyas Child Theme
+Theme URI:      http://kallyas.net/demo/
+Description:    Child theme for the Kallyas theme
+Author:         Hogash
+Author URI:     http://themeforest.net/user/hogash
+Template:       kallyas
+Version:        4.0.0
+Tags: dark, light, left-sidebar, right-sidebar, fluid-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, full-width-template, theme-options, translation-ready
+Text Domain:  zn_framework
+*/
+
+/* ################# HEADER #################*/
+@media (min-width: 768px) {
+    .site-header.style9 {
+        height: 750px;
+    }
+}
+
+@media (min-width: 768px) {
+    .site-header {
+        background-size: cover;
+    }
+}
+
+.elm-custommenu {
+    margin: 0px;
+    padding: 15px;
+    background-color: #003F77;
+}
+
+#menu-menu-principal {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background-color: #173f6a !important;
+}
+
+.main-nav.mainnav--active-bg>ul>.menu-item.active>a:before, .main-nav.mainnav--active-bg>ul>.menu-item:hover>a:before, .main-nav.mainnav--active-bg>ul>.menu-item>a:hover:before {
+    height: 55px;
+    opacity: 1;
+}
+
+#menu-item-3071 {
+    border-radius: 10px;
+    background-color: #c98a00 !important;
+}
+
+@media (max-width: 750px) {
+    .eluida5783d32 {
+        padding-top: 0px !important;
+    }
+}
+
+/* ################# NOSSAS FROTAS #################*/
+.tbk__subtitle {
+    padding-right: 20px;
+}
+
+.eluid3742f632, .eluid54d33723, .eluid0ad524b1, .eluid7ef02b70 {
+    padding-top: 18px;
+    padding-bottom: 0px;
+    border-right-width: thin;
+    border-right-style: inset;
+    border-color: #fff;
+}
+
+/* ################# NOTÍCIAS #################*/
+.action_box, .action_box.style3:before, .action_box.style3 .action_box-inner:before, .btn.btn-fullcolor, .btn.btn-fullcolor:focus, .btn.btn-fullcolor.btn-skewed:before, .circle-text-box.style3 .wpk-circle-span, .circle-text-box.style2 .wpk-circle-span::before, .circle-text-box:not(.style3) .wpk-circle-span:after, .elm-social-icons.sc--normal .elm-sc-icon:hover, .elm-searchbox--normal .elm-searchbox__submit, .elm-searchbox--transparent .elm-searchbox__submit, .hover-box:hover, .how_to_shop .number, .image-boxes.image-boxes--4 .image-boxes-title:after, .kl-flex--classic .zn_simple_carousel-arr:hover, .kl-flex--modern .flex-underbar, .kl-blog-item-overlay-inner .kl-blog-item-overlay-more:hover, .kl-blog-related-post-link:after, .kl-ioscaption--style1 .more:before, .kl-ioscaption--style1 .more:after, .kl-ioscaption--style2 .more, .kl-ioscaption--style3.s3ext .main_title::before, .kl-ios-selectors-block.bullets2 .item.selected::before, .kl-ioscaption--style5 .klios-separator-line span, .zn-iosSl-caption.zn-iosSl-caption--style1 .zn-iosSl-more::before, .zn-iosSl-caption.zn-iosSl-caption--style1 .zn-iosSl-more::after, .zn-iosSl-caption.zn-iosSl-caption--style2 .zn-iosSl-more, .zn-iosSl-caption.zn-iosSl-caption--style3.s3ext .zn-iosSl-mainTitle::before, .zn-iosSl-caption.zn-iosSl-caption--style5 .zn-iosSl-separatorLine span, .kl-ptfcarousel-carousel-arr:hover, .kl-ptfsortable-nav-link:hover, .kl-ptfsortable-nav-item.current .kl-ptfsortable-nav-link, .latest_posts3-post-date, .latest_posts--style4.kl-style-2 .latest_posts-elm-titlew, .latest_posts--style4.kl-style-2 .latest_posts-title:after, .latest_posts--style4.default-style .latest_posts-readon, .slick-active .slickBtn, .woocommerce ul.products.lt-offers-carousel .product-list-item:after, .media-container__link--style-borderanim1 > i, .nivo-directionNav a:hover, .pricing-table-element .plan-column.featured .subscription-price .inner-cell, .process_steps--style1 .process_steps__intro, .process_steps--style2 .process_steps__intro, .process_steps--style2 .process_steps__intro:before, .recentwork_carousel--1 .recentwork_carousel__bg, .recentwork_carousel--2 .recentwork_carousel__title:after, .recentwork_carousel--2 .recentwork_carousel__cat, .recentwork_carousel_v2 .recentwork_carousel__plus, .recentwork_carousel_v3 .btn::before, .recentwork_carousel_v3 .recentwork_carousel__cat, .timeline-box:hover .timeline-box-icon, .title_circle, .title_circle:before, .services_box--classic:hover .services_box__icon, .stepbox2-box--ok:before, .stepbox2-box--ok:after, .stepbox2-box--ok, .stepbox3-content:before, .stepbox4-number:before, .tbk--color-theme.tbk-symbol--line .tbk__symbol span, .tbk--color-theme.tbk-symbol--line_border .tbk__symbol span, .th-wowslider a.ws_next:hover, .th-wowslider a.ws_prev:hover, .zn-acc--style4 .acc-title, .zn-acc--style4 .acc-tgg-button .acc-icon:before, .zn-acc--style3 .acc-tgg-button:before, .zn_badge_sale, .zn_badge_sale:after, .elm-cmlist.elm-cmlist--v2 a:before, .elm-cmlist.elm-cmlist--v3ext a:before, .elm-custommenu--dd .elm-custommenu-pick, .shop-features .shop-feature:hover, .feature_box.style3 .box:hover, .services_box_element:hover .box .icon, .elm-social-icons.sc--normal .elm-sc-link:hover .elm-sc-icon {
+    display: none !important;
+}
+
+.kl-blog-item-container.zn_columns .kl-blog-item-title {
+    line-height: 1.6;
+    font-size: 28px;
+    padding: 25px 0 0;
+    text-align: center;
+    color: #2D40F6 !important;
+}
+
+.kl-blog-item-details {
+    font-size: 11px;
+    color: #9a9a9a;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    position: relative;
+    transition: opacity .15s ease-in;
+    display: none;
+}
+
+.kl-blog-item-links {
+    float: left;
+    list-style: none!important;
+    font-size: 10px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    display: none;
+}
+
+.kl-blog-item-overlay {
+    background-color: #167ac673 !important;
+}
+
+.page-subheader .bgback {
+    background-color: #003F77;
+}
+
+/* ################# FOOTER #################*/
+.site-footer .social-icons-li:first-child {
+    margin-left: 0;
+    display: none;
+}
+
+.social-icons.sc--clean .social-icons-item {
+    font-size: 30px;
+}
+
+#kl-main-header site-header-bottom-wrapper clearfix  sh--default {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+}
+
+.site-footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.site-footer a {
+    background-color: blue;
+    padding: 25px;
+}
+
+.site-footer-bottom {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
